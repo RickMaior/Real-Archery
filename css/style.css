@@ -25,9 +25,10 @@ nav a:visited {
   text-decoration: none;
 }
 
-nav div:hover {
+nav a:hover {
   text-decoration: none;
   background-color: rgb(224, 248, 138);
+  color: black;
 }
 
 nav a:active {
