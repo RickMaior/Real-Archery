@@ -18,30 +18,21 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="registration.html" class="active">Registration</a>
+      <a href="#" class="active">R"egistration</a>
     </nav>
-    <form name="registration" method="post" action="#">
-      <fieldset>
-        <legend>User Information</legend>
-        <label for="name">Name:</label>
-        <input id="name" name="name" type="text" required/>
-        <br/>
-        <label for="country">Country:</label>
-        <input id="country" name="country" type="text" />
-        <br/>
-        <label for="category">Category:</label>
-        <select id="category" name="category" required>
-            <option value="recurve">Recurve</option>
-            <option value="compound">Compound</option>
-            <option value="barebow">Barebow</option>
-        </select>
-        <br/><br/>
-        <input id="submit" name="submit" type="submit" value="Submit" />
-        <input id="clear" name="clear" type="reset" value="Clear" />
-      </fieldset>
-      <footer>
-        <a href="contact.html">Contact Us</a>
-      </footer>
-    </form>
+
+    <h2 align="center">What is your interest?</h2>
+
+    <section class="flex-container" id="client-type">
+      <div class="individual-box">
+        <a href="registration_athlete.html" target="_blank">Athlete</a>
+      </div>
+      <div class="individual-box">
+        <a href="registration_coach.html" target="_blank">Coach</a>
+      </div>
+    </section>
+    <footer>
+      <a href="contact.html">Contact Us</a>
+    </footer>
   </body>
 </html>
