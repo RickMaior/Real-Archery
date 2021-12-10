@@ -80,7 +80,6 @@ footer{
   justify-content: center;
 }
 
-
 #client-type{
   display: flex;
   justify-content: center;
@@ -101,4 +100,24 @@ footer{
   /*margin: auto;*/
   text-align: center;
   color: white;
+}
+
+#client-type a:link {
+  text-decoration: none;
+  color: white;
+}
+
+#client-type a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#client-type a:hover {
+  text-decoration: none;
+  color: #a1e7f8
+}
+
+#client-type a:active {
+  text-decoration: none;
+  color: black;
 }
