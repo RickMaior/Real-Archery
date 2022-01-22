@@ -144,11 +144,16 @@ nav a:active {
   justify-content: center;
   align-items: center;
   /* width: 1250px; */
+  /* height: 350px;
+  width: 300px; */
+  
 }
 
 .container-side > div{
   margin: 50px;
 	padding: 20px;
+  height: 350px;
+  width: 370px;
 }
 
 
@@ -169,9 +174,7 @@ nav a:active {
 
 .items {
   width: 300px;
-  /* background: $sec; */
   box-shadow: 0 3px 6px rgba(black,0.16), 0 3px 6px rgba(black,0.23);
-  /* border-top: 10px solid $dark-pri; */
 }
 
 .items-head{
@@ -192,7 +195,6 @@ nav a:active {
   width: 20%;
   margin: 0px 30px;
   border: 1px solid black;
-  /* border: 1px solid $dark-pri; */
 }
 
 .items-body {
@@ -221,17 +223,15 @@ nav a:active {
 }
 
 .items-body-content:hover {
-    transition: 0.4s;
+  transition: 0.4s;
   border-radius: 15px;
   border: 1px solid black;
-  /* border: 1px solid $dark-pri; */
 }
 
 .items-body-content i {
   align-self: center;
   font-size: 15px;
   color: #000;
-  /* color: $dark-pri; */
   font-weight: bold;
   animation: icon 1.5s infinite forwards;
 }
