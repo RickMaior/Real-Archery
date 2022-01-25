@@ -7,11 +7,6 @@ body {
   padding: 0;
 }
 
-/* h1 {
-  color: rgb(74, 74, 228);
-  color: white;
-} */
-
 h2{
   font-family: 'Poppins', sans-serif;
 }
@@ -19,7 +14,6 @@ h2{
 /*! Header styling*/
 header {
   background-color: #f4f4f4;
-  /* margin: 5px; */
 }
 
 /*! Nav styling*/
@@ -27,10 +21,6 @@ nav {
   background-color: #23232e;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
-   /* display: flex;  */
-  
-
-  /* height: 8vh; */
   vertical-align: middle;
 }
 
@@ -39,21 +29,17 @@ nav ul {
   display: flex; 
   flex-flow: row wrap;
   justify-content: flex-end;
-  /* height: 100%; */
   margin: 0px;
 }
 
 nav li {
-  /* background-color: red; */
   text-align: center;
-  /* font-family: "Montserrat", sans-serif; */
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 0.5px;
   margin-left: 10%;
   margin-right: 10%;
-  /* padding: 0px 15px; */
 }
 
 nav a {
